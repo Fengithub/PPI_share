@@ -1,3 +1,5 @@
+import matplotlib.pyplot as plt
+
 def plot_boxplot(data, out_fig, data_labels, x_label, y_label, outlier):
 	# input data is a list of arrays, each array correspond to a data_label
 	fig = plt.figure(figsize = (8,5))
