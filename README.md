@@ -10,4 +10,4 @@ Reference: [GOSemSim: an R package for measuring semantic similarity among GO te
 
 Before implementing path_GO_enrich.R, make sure you installed the following package:  
 [clusterProfiler](https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html)  
-Reference: [Yu G, Wang L, Han Y, He Q (2012). “clusterProfiler: an R package for comparing biological themes among gene clusters.” OMICS: A Journal of Integrative Biology, 16(5), 284-287.](doi: 10.1089/omi.2011.0118.)
+Reference: [Yu G, Wang L, Han Y, He Q (2012). “clusterProfiler: an R package for comparing biological themes among gene clusters.” OMICS: A Journal of Integrative Biology, 16(5), 284-287. doi: 10.1089/omi.2011.0118.](https://www.liebertpub.com/doi/10.1089/omi.2011.0118)
