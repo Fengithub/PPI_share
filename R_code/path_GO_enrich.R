@@ -9,7 +9,7 @@ write_path_go_enrich <- function(dataset, org1, org2){
   tmp <- cbind('protein_inf', dataset)
   input_file = str_c(tmp, collapse = '_')
   Pros = read.csv(input_file, sep = "\t", header = TRUE, fill = FALSE)
-  cutoff <- quantile(Pros$Degree, probs = c(0, 0.25, 0.75, 1))
+  cutoff <- quantile(Pros$Degree)
 
   for (i in 1:4){
     upper <- cutoff[i + 1]
